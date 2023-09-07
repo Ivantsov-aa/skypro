@@ -1,0 +1,27 @@
+select {
+  display: block;
+  font-size: 16px;
+  color: var(--main-black);
+  padding: 10px 14px;
+  width: 100%;
+  max-width: 288px;
+  border: 1px solid var(--select-border-color);
+  border-radius: 20px;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDE4IDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik05IDguMDk3NTNMMC4zMzk3NDUgMC40NTExOUwxNy42NjAzIDAuNDUxMTkyTDkgOC4wOTc1M1oiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=");
+  background-repeat: no-repeat, repeat;
+  background-position: right 22px top 55%, 0 0;
+  background-size: 20px auto, 100%;
+  cursor: pointer;
+}
+select::-ms-expand {
+  display: none;
+}
+select:hover {
+  border-color: var(--text-gray-color);
+}
+select:focus {
+  border-color: var(--text-gray-color);
+  outline: none;
+}
